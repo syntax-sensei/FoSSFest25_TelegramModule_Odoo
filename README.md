@@ -21,7 +21,7 @@ This feature can be scaled to notify other departments (e.g., sales teams, logis
 - Python 3.6 or later
 
 ## Installation
-[LINK](https://www.youtube.com/watch?v=wWnZu7-63jU&list=PLX6eXpRg2kb3Zqta0tZOF_p0d_DokohhP)
+[Video Guide](https://www.youtube.com/watch?v=wWnZu7-63jU&list=PLX6eXpRg2kb3Zqta0tZOF_p0d_DokohhP)
 
 ## Custom Configuration
 
