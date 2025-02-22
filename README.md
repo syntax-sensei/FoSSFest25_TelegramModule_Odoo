@@ -64,7 +64,7 @@ This feature can be scaled to notify other departments (e.g., sales teams, logis
 
 ## Telegram Test Channel Link
 
-[https://t.me/odooping_bot](https://t.me/+LVWAnb_xzVo3MmNl)
+[https://t.me/+LVWAnb_xzVo3MmNl](https://t.me/+LVWAnb_xzVo3MmNl)
 
 ## License
 
