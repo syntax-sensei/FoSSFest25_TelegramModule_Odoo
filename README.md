@@ -42,10 +42,11 @@ This feature can be scaled to notify other departments (e.g., sales teams, logis
 #### Get the Channel Chat ID:
 1. Post any message in the channel.
 2. Use the **getUpdates API** to retrieve the Chat ID:
+
    ```
    https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
    ```
-3. Look for the `chat.id` value (e.g., `-100123456XXX`).
+4. Look for the `chat.id` value (e.g., `-100123456XXX`).
 
 #### Configure the Bot in Odoo:
 1. Search for **Telegram Notifications** in Odoo.
