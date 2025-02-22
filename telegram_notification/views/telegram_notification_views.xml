@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Form View for Telegram Notification -->
+    <record id="view_telegram_notification_form" model="ir.ui.view">
+        <field name="name">telegram.notification.form</field>
+        <field name="model">telegram.notification</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="token"/>
+                        <field name="chat_ids"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Tree View for Telegram Notification -->
+    <record id="view_telegram_notification_tree" model="ir.ui.view">
+        <field name="name">telegram.notification.tree</field>
+        <field name="model">telegram.notification</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="token"/>
+                <field name="chat_ids"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Action for Telegram Notification -->
+    <record id="action_telegram_notification" model="ir.actions.act_window">
+        <field name="name">Telegram Notification</field>
+        <field name="res_model">telegram.notification</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu Item for Telegram Notification -->
+    <menuitem id="menu_telegram_notification_root" name="Telegram Notification"/>
+    <menuitem id="menu_telegram_notification" name="Telegram Notification" parent="menu_telegram_notification_root" action="action_telegram_notification"/>
+</odoo>
