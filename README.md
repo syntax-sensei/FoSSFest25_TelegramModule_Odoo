@@ -2,6 +2,8 @@
 
 # Telegram Notification Module :
 
+[![Watch the working](https://img.youtube.com/vi/81oy9G1zxRg/0.jpg)](https://youtu.be/81oy9G1zxRg)
+
 This project introduces a custom Odoo module that integrates Telegram notifications into the Odoo platform. Specifically, when a sales order is created in Odoo, a notification is automatically posted to the company's warehousing Telegram channel .
 
 This feature can be scaled to notify other departments (e.g., sales teams, logistics teams, finance teams) about relevant events. Additionally, the same functionality can be extended to other Odoo modules such as purchase orders , invoices , inventory updates , and more.
